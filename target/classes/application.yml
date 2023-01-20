@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+      cache: false
+      prefix: file:src/main/resources/templates/
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+  data:
+    rest:
+      base-path: "/data-api"
